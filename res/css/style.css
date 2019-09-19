@@ -1,0 +1,33 @@
+#Title {
+    color: #4169e1;
+}
+
+#Body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#Section-left {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+}
+#Section-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.MyImage {
+    max-height: 200px;
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+.Subjects, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+ul {
+    display: inline;
+  }
