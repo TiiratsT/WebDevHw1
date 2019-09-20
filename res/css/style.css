@@ -1,3 +1,7 @@
+* {
+    font-family: 'Turret Road', cursive;
+}
+
 #Title {
     color: #4169e1;
 }
@@ -31,3 +35,11 @@
 ul {
     display: inline;
   }
+
+.Subjects thead {
+    color: #4169e1;
+}
+
+footer ul li {
+    font-size: 65%;
+}
