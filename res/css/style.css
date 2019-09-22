@@ -7,8 +7,9 @@
 }
 
 #Body {
-    background-color: aliceblue;
+	background-color: aliceblue;
     text-align: center;
+	height: 100%;
 }
 
 #Section-left {
@@ -27,6 +28,15 @@
     padding-top: 10px;
 }
 
+#Section-left>div>ol {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+li~li {
+	font-weight: normal;
+}
+
 .Subjects, th, td {
     border-collapse: collapse;
     border: 1px solid black;
@@ -38,6 +48,13 @@ ul {
 
 .Subjects thead {
     color: #4169e1;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;        
 }
 
 footer ul li {
